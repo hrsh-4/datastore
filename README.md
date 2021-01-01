@@ -47,3 +47,7 @@ object.get_key("test_key")                         # returns value of "test_key"
 
 object.delete_key("test_key")                      # deletes key "test_key", if key found
 </pre>
+
+Unit test of the datastore have been written in <code> tests.py</code> and can be tested by,
+
+<pre>python tests.py</pre>
