@@ -164,7 +164,7 @@ def create_object(file_name=None) :
     """
     Create a new datastore of name file_name
     """
-    # file_name = file_name.lstrip() + file_name.rstrip()
+    
     if file_name is None or file_name.isspace():
         file_name = create_file_name()
     file_name = f"{PATH}/{file_name}"
